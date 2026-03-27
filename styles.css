@@ -1648,6 +1648,20 @@ section {
   font-size: 0.9rem;
 }
 
+.footer-built-by {
+  margin-top: 0.5rem !important;
+  font-size: 0.8rem !important;
+  opacity: 0.8;
+}
+
+.built-by-local-search {
+  color: #f0f0f0;
+}
+
+.built-by-ally {
+  color: #7bafd4;
+}
+
 .footer-brand-industrial {
   font-family: "Bebas Neue", sans-serif;
   font-size: 1.5rem;

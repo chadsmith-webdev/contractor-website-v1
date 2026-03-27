@@ -15,6 +15,197 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+
+    <!-- Structured Data / Local SEO Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "GeneralContractor",
+            "@id": "https://www.probuildcontractors.com/#business",
+            "name": "ProBuild Contractors",
+            "url": "https://www.probuildcontractors.com",
+            "logo": "https://www.probuildcontractors.com/images/logo.png",
+            "image": "https://www.probuildcontractors.com/images/hero.jpg",
+            "description": "ProBuild Contractors provides industrial-grade construction, commercial builds, residential renovations, and 24/7 emergency repair services. Licensed, insured, and trusted since 2004.",
+            "telephone": "+15551234567",
+            "email": "info@probuildcontractors.com",
+            "foundingDate": "2004",
+            "numberOfEmployees": {
+              "@type": "QuantitativeValue",
+              "value": 50
+            },
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "123 Industrial Way",
+              "addressLocality": "Your City",
+              "addressRegion": "ST",
+              "postalCode": "00000",
+              "addressCountry": "US"
+            },
+            "geo": {
+              "@type": "GeoCoordinates",
+              "latitude": 0.0,
+              "longitude": 0.0
+            },
+            "openingHoursSpecification": [
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": [
+                  "Monday",
+                  "Tuesday",
+                  "Wednesday",
+                  "Thursday",
+                  "Friday"
+                ],
+                "opens": "07:00",
+                "closes": "18:00"
+              },
+              {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": "Saturday",
+                "opens": "08:00",
+                "closes": "14:00"
+              }
+            ],
+            "priceRange": "$$",
+            "currenciesAccepted": "USD",
+            "paymentAccepted": "Cash, Check, Credit Card",
+            "areaServed": {
+              "@type": "City",
+              "name": "Your City"
+            },
+            "hasCredential": [
+              {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "license",
+                "name": "General Contractor License #GC-204789"
+              },
+              {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "certification",
+                "name": "OSHA 30-Hour Safety Certification"
+              },
+              {
+                "@type": "EducationalOccupationalCredential",
+                "credentialCategory": "certification",
+                "name": "LEED Accredited Professional"
+              }
+            ],
+            "aggregateRating": {
+              "@type": "AggregateRating",
+              "ratingValue": "5.0",
+              "reviewCount": "1000",
+              "bestRating": "5",
+              "worstRating": "1"
+            },
+            "review": [
+              {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "John Martinez" },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                },
+                "reviewBody": "ProBuild transformed our office space completely. Professional, on-time, and within budget. Their attention to detail and engineering precision is unmatched."
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Sarah Johnson" },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                },
+                "reviewBody": "The team was exceptional. Our kitchen renovation exceeded expectations. Excellent communication and clean work site."
+              },
+              {
+                "@type": "Review",
+                "author": { "@type": "Person", "name": "Michael Chen" },
+                "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5",
+                  "bestRating": "5"
+                },
+                "reviewBody": "Professional contractors who truly care about quality and safety. Managed multiple complex projects seamlessly. Trustworthy, reliable, exceptional."
+              }
+            ],
+            "sameAs": [
+              "https://www.facebook.com/probuildcontractors",
+              "https://www.instagram.com/probuildcontractors",
+              "https://www.linkedin.com/company/probuildcontractors",
+              "https://twitter.com/probuildco"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.probuildcontractors.com/#website",
+            "url": "https://www.probuildcontractors.com",
+            "name": "ProBuild Contractors",
+            "description": "Industrial-grade construction and contracting services. Licensed, insured, and trusted since 2004.",
+            "publisher": {
+              "@id": "https://www.probuildcontractors.com/#business"
+            }
+          },
+          {
+            "@type": "FAQPage",
+            "@id": "https://www.probuildcontractors.com/#faq",
+            "mainEntity": [
+              {
+                "@type": "Question",
+                "name": "How do I get a quote?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Fill out the project inquiry form on this page or call us directly. We'll schedule a free on-site consultation within 48 hours and deliver a detailed written estimate — no vague ballparks, just numbers you can count on."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Are you licensed and insured?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. We hold an active General Contractor license (#GC-204789) and carry $5M in general liability coverage plus full workers' compensation. We'll provide certificates of insurance before any work begins."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "How long will my project take?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Every project is different. Small renovations can take days; large commercial builds can take months. We give you a firm timeline before work starts and hold ourselves accountable to it — 98% of our projects finish on schedule."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you handle permits and inspections?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Absolutely. We pull all required permits, coordinate inspections, and ensure full compliance with local building codes. You won't have to chase a single form — we handle the paperwork so you don't have to."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "What if something goes wrong after the project?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "All our work is backed by a 1-year workmanship warranty. If something isn't right, we come back and fix it — no runaround, no extra charges. We also assist with manufacturer warranties on materials and fixtures."
+                }
+              },
+              {
+                "@type": "Question",
+                "name": "Do you offer emergency services?",
+                "acceptedAnswer": {
+                  "@type": "Answer",
+                  "text": "Yes. Our emergency line is available 24/7 at (555) 123-4567. Structural damage, storm response, or urgent repairs — we have crews on standby and can be on-site fast when time is critical."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    </script>
   </head>
   <body>
     <!-- Emergency Banner -->
@@ -1012,6 +1203,10 @@
 
         <div class="footer-bottom-industrial">
           <p>&copy; 2024 PROBUILD CONTRACTORS. ALL RIGHTS RESERVED.</p>
+          <p class="footer-built-by">
+            Built by <span class="built-by-local-search">Local Search</span>
+            <span class="built-by-ally">Ally</span>
+          </p>
         </div>
       </div>
     </footer>
